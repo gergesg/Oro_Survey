@@ -2,6 +2,8 @@ SurveyCreatorCore.registerCreatorTheme(SurveyCreatorTheme); // Add predefined Su
 function SurveyCreatorRenderComponent() {
     const creator = new SurveyCreator.SurveyCreator();
     return (<SurveyCreator.SurveyCreatorComponent creator={creator} />);
+    
 }
 const root = ReactDOM.createRoot(document.getElementById("surveyCreatorContainer"));
+
 root.render(<SurveyCreatorRenderComponent />);
