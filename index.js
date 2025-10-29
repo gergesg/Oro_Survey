@@ -438,8 +438,8 @@ function SurveyCreatorRenderComponent() {
     }
   ]
 }
-}
 const root = ReactDOM.createRoot(document.getElementById("surveyCreatorContainer"));
 
 root.render(<SurveyCreatorRenderComponent />);
+
 
